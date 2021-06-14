@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      colosrs: {
+      colors: {
         sunset: '#feb25e',
         mountain: '#b2d0c6'
       }
