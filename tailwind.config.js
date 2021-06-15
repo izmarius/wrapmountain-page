@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         sunset: '#feb25e',
         mountain: '#b2d0c6'
+      },
+      fontFamily: {
+        body: ['Poppins']
       }
     },
   },
