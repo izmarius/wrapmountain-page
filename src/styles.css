@@ -17,7 +17,7 @@
 }
 
 .showcase-header {
-  @apply absolute top-0 left-0 w-full z-50 flex items-center justify-between;
+  @apply absolute top-0 left-0 w-full z-40 flex items-center justify-between;
 }
 
 .logo {
@@ -33,7 +33,11 @@
 }
 
 .overlay {
-  @apply absolute top-0 left-0 w-screen h-screen bg-gray-500 mix-blend-overlay;
+  @apply absolute top-0 left-0 w-screen h-screen transition-colors bg-gray-500 ease-in-out duration-1000 mix-blend-overlay;
+}
+
+.home-overlay {
+  @apply absolute top-0 left-0 w-screen h-screen transition-colors bg-gray-900 ease-in-out duration-1000 mix-blend-overlay z-50 flex justify-center items-center flex-col;
 }
 
 .text {
@@ -69,7 +73,7 @@
 }
 
 .menu-list-item {
-  @apply text-gray-700 text-lg md:text-xl hover:text-black;
+  @apply text-gray-700 text-lg md:text-xl hover:text-black cursor-pointer;
 }
 
 .slides {
