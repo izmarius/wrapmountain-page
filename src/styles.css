@@ -28,8 +28,8 @@
     @apply relative pr-16 md:pr-36 cursor-pointer
 }
 
-.mountain-video {
-    @apply absolute top-0 left-0 w-full h-screen object-cover opacity-60
+.mountain-image {
+    @apply absolute top-0 left-0 h-screen opacity-60 overflow-hidden
 }
 
 .overlay {
@@ -70,4 +70,8 @@
 
 .menu-list-item {
     @apply text-gray-700 text-lg md:text-xl hover:text-black
+}
+
+.slides {
+    @apply hidden
 }
